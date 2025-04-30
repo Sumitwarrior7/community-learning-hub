@@ -16,4 +16,4 @@ RUN npm install --production
 COPY . .
 
 # Start the application
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
