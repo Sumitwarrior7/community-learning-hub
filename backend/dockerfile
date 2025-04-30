@@ -15,8 +15,5 @@ RUN npm install --production
 # Copy all files
 COPY . .
 
-# Expose the backend port
-EXPOSE 5000
-
 # Start the application
 CMD ["npm", "run", "dev"]
