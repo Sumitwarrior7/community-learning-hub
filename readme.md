@@ -75,11 +75,34 @@ npm install
 Create a `.env` file in `/backend` with the following content:
 
 ```
+# MongoDB
 MONGO_URI=your_mongodb_atlas_uri
+
+# Auth
 JWT_SECRET=your_jwt_secret_key
-TWITTER_API_KEY=your_twitter_key
-REDDIT_CLIENT_ID=your_reddit_id
+NODE_ENV=development
 PORT=5000
+
+# Twitter API
+TWITTER_API_KEY=your_twitter_api_key
+TWITTER_API_SECRET=your_twitter_api_secret
+TWITTER_ACCESS_TOKEN=your_twitter_access_token
+TWITTER_ACCESS_SECRET=your_twitter_access_secret
+
+# Reddit API
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_client_secret
+REDDIT_REFRESH_TOKEN=your_reddit_refresh_token
+REDDIT_USER_AGENT=your_reddit_user_agent
+
+# LinkedIn API
+LINKEDIN_ACCESS_TOKEN=your_linkedin_access_token
+LINKEDIN_COMPANY_ID=your_linkedin_company_id
+
+# Redis Config
+REDIS_HOST=your_redis_host
+REDIS_PORT=6379
+REDIS_PASSWORD=your_redis_password
 ```
 
 ## Frontend Setup
