@@ -24,9 +24,9 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/credits', require('./routes/creditRoutes'));
 app.use('/api/feed', require('./routes/feedRoutes'));
 
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 const server = app.listen(
-  PORT,
+  port,
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold)
 );
